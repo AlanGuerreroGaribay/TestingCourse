@@ -20,6 +20,7 @@ function Editor({user}) {
   if (redirect) {
     return <Redirect to="/" />
   }
+
   return (
     <form onSubmit={handleSubmit}>
       <label htmlFor="title-input">Title</label>

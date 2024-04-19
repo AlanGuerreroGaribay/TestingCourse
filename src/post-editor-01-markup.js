@@ -3,7 +3,7 @@ import * as React from 'react'
 function Editor() {
   return (
     <form>
-      <label htmlFor="title-input">Title</label>
+      <label htmlFor="title-input">Turtle</label>
       <input id="title-input" />
 
       <label htmlFor="content-input">Content</label>
